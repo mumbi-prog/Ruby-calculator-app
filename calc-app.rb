@@ -29,5 +29,15 @@ def multiplication(num1, num2)
 end
 result = multiplication(number1, number2)
   
-
+if operation == "+"
+    puts "Result: #{result}"
+  elsif operation == "-"
+    puts "Result: #{result}"
+  elsif operation == "/"
+    puts "Result: #{result}"
+  elsif operation == "*"
+    puts "Result: #{result}"
+  else
+    puts "Error"
+end
   
